@@ -1,0 +1,102 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  user-select: none;
+}
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.products {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2vw;
+}
+
+.card {
+  height: 30vh;
+  width: 20vw;
+  min-height: 300px;
+  min-width: 200px;
+  border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-name {
+  font-weight: bold;
+}
+
+#cart {
+  position: absolute;
+  left: 90%;
+  cursor: pointer;
+}
+
+.show {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  min-height: 7vh;
+  width: 20vw;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.hide {
+  display: none;
+}
+
+.cartcard {
+  width: 20vw;
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  min-width: 300px;
+}
+
+.totalprice {
+  min-width: 300px;
+
+  height: 7vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  align-self: flex-end;
+}
+.card-remove {
+  cursor: pointer;
+}
+
+.chocolate-image {
+  width: 20vw;
+  min-width: 200px;
+}
